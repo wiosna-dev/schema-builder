@@ -1,6 +1,6 @@
 <?php
 
-namespace WioEvents\SchemaBuilder;
+namespace SchemaBuilder\SchemaBuilder;
 
 use Exception;
 
