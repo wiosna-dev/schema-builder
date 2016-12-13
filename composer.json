@@ -1,0 +1,14 @@
+{
+    "name": "wiosna-dev/schema-builder",
+    "description": "Programatically build MySQL table schema",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SchemaBuilder\\": "src"
+        }
+    },
+    "config" : {
+        "vendor-dir" : "src/vendor"
+    },
+    "require": {}
+}

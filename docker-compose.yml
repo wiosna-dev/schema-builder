@@ -1,0 +1,8 @@
+version: '2'
+services:
+    composer:
+        image: composer/composer:1.1
+        working_dir: /app
+        volumes:
+            - .:/app
+            - /data/composer:/root/.composer
