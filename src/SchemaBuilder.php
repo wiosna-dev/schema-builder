@@ -49,7 +49,7 @@ class SchemaBuilder
     private function buildTableName()
     {
         $sql = '';
-        if (!empty($this->prefix) {
+        if (!empty($this->prefix)) {
             $sql .= $this->prefix;
         }
         $sql .= $this->namespace.'_$_'.$tableName;
